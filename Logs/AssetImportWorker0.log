@@ -1,0 +1,41 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/stevehechio/CreateWithCode/Roller Splat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49399
+Successfully changed project path to: /Users/stevehechio/CreateWithCode/Roller Splat
+/Users/stevehechio/CreateWithCode/Roller Splat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stevehechio/CreateWithCode/Roller Splat/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-11 16:04:27.828 Unity[837:17196] iMac preferred device: NVIDIA GeForce GT 755M (high power)
+2021-09-11 16:04:27.828 Unity[837:17196] Metal devices available: 1
+2021-09-11 16:04:27.828 Unity[837:17196] 0: NVIDIA GeForce GT 755M (high power)
+2021-09-11 16:04:27.829 Unity[837:17196] Using device NVIDIA GeForce GT 755M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 755M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56837
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000562 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
