@@ -12,30 +12,165 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49399
+50439
 Successfully changed project path to: /Users/stevehechio/CreateWithCode/Roller Splat
 /Users/stevehechio/CreateWithCode/Roller Splat
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/stevehechio/CreateWithCode/Roller Splat/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-11 16:04:27.828 Unity[837:17196] iMac preferred device: NVIDIA GeForce GT 755M (high power)
-2021-09-11 16:04:27.828 Unity[837:17196] Metal devices available: 1
-2021-09-11 16:04:27.828 Unity[837:17196] 0: NVIDIA GeForce GT 755M (high power)
-2021-09-11 16:04:27.829 Unity[837:17196] Using device NVIDIA GeForce GT 755M (high power)
+2021-09-13 19:00:27.202 Unity[1275:40633] iMac preferred device: NVIDIA GeForce GT 755M (high power)
+2021-09-13 19:00:27.202 Unity[1275:40633] Metal devices available: 1
+2021-09-13 19:00:27.203 Unity[1275:40633] 0: NVIDIA GeForce GT 755M (high power)
+2021-09-13 19:00:27.203 Unity[1275:40633] Using device NVIDIA GeForce GT 755M (high power)
 Initializing Metal device caps: NVIDIA GeForce GT 755M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56837
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56275
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000562 seconds.
+Registered in 0.000584 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3775ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 3.400684 ms (FindLiveObjects: 0.168818 ms CreateObjectMapping: 0.051714 ms MarkObjects: 3.109811 ms  DeleteObjects: 0.069271 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sounds
+  artifactKey: Guid(5c47a4003f33d4df0a3d3a5afee9be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(5c47a4003f33d4df0a3d3a5afee9be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8146642f073d086d56e808be8df9ca8') in 0.004125 seconds 
+  Import took 0.006611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.103241 seconds.
+  path: Assets/Sounds/1_person_cheering-Jett_Rifkin-1851518140.wav
+  artifactKey: Guid(be03d1b96d39342dd9edb2ba88857b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/1_person_cheering-Jett_Rifkin-1851518140.wav using Guid(be03d1b96d39342dd9edb2ba88857b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5572da8c5c9f9573add39b39bcf451b4') in 2.996141 seconds 
+  Import took 2.998930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.884810 seconds.
+  path: Assets/Sounds/Jump-SoundBible.com-1007297584.wav
+  artifactKey: Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Jump-SoundBible.com-1007297584.wav using Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3c27774824bea8711ba8eab1c47867') in 0.013255 seconds 
+  Import took 0.016797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Sounds/Jump-SoundBible.com-1007297584.wav
+  artifactKey: Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Jump-SoundBible.com-1007297584.wav using Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3c27774824bea8711ba8eab1c47867') in 0.010917 seconds 
+  Import took 0.014787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.524805 seconds.
+  path: Assets/Sounds/swipe-SoundBible.com-1007297584.wav
+  artifactKey: Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/swipe-SoundBible.com-1007297584.wav using Guid(4238fefc84e0347d386cb06d7d9958c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9f9a3b4a801a68453bc4ec67c5b334') in 0.023639 seconds 
+  Import took 0.027190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.277304 seconds.
+  path: Assets/Sounds/knock_SoundBible.com_151671390.wav
+  artifactKey: Guid(7ef1f8e4ea4b44a84a6ebd375a1d8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/knock_SoundBible.com_151671390.wav using Guid(7ef1f8e4ea4b44a84a6ebd375a1d8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6710b20676e3aeb8ff3ca1cc93c5344b') in 0.030957 seconds 
+  Import took 0.033887 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -9,10 +9,12 @@ public class GameManager : MonoBehaviour
     public static GameManager singleton;
 
     private GroundPiece[] allGroundPieces;
+    private AudioSource audioSource;
     private int level = 5;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         SetUpNewLevel();
     }
 
@@ -63,13 +65,23 @@ public class GameManager : MonoBehaviour
 
     private void NextLevel()
     {
-        if(SceneManager.GetActiveScene().buildIndex == level - 1)
+
+        StartCoroutine(PlayCheersOnCompleted());
+    }
+
+    IEnumerator PlayCheersOnCompleted()
+    {
+        audioSource.Play();
+        yield return new WaitForSeconds(2);
+
+        if (SceneManager.GetActiveScene().buildIndex == level - 1)
         {
             SceneManager.LoadScene(0);
-        }else
+        }
+        else
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-       
+
     }
 }
