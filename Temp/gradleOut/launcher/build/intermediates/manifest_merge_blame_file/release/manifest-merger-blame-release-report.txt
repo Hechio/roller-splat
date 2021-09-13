@@ -122,7 +122,7 @@
 68-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Roller Splat/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
 69            android:name="unity.build-id"
 69-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Roller Splat/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
-70            android:value="6b1d5383-38f7-4c1a-9e8b-7611b25d525b" />
+70            android:value="9a2c76b6-5e34-4345-8dc8-7770cd43e082" />
 70-->[:unityLibrary] /Users/stevehechio/CreateWithCode/Roller Splat/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
 71    </application>
 72

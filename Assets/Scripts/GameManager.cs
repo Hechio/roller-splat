@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager singleton;
 
     private GroundPiece[] allGroundPieces;
+    private int level = 5;
 
     void Start()
     {
@@ -62,7 +63,7 @@ public class GameManager : MonoBehaviour
 
     private void NextLevel()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 1)
+        if(SceneManager.GetActiveScene().buildIndex == level - 1)
         {
             SceneManager.LoadScene(0);
         }else
