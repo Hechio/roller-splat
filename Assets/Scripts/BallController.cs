@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
+
+    public static BallController singleton;
+
     public Rigidbody rb;
     public float speed = 15;
 
@@ -20,11 +23,34 @@ public class BallController : MonoBehaviour
 
     private AudioSource audioSource;
 
+    private void Awake()
+    {
+        if (singleton == null)
+        {
+            singleton = this;
+        }
+        else if (singleton != this)
+        {
+            Destroy(gameObject);
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    public void PlayMusic() {
+        audioSource.Play();
+    }
+
+    public void StopMusic()
+    {
+        audioSource.Stop();
+    }
+
     private void Start()
     {
         solveColor = Random.ColorHSV(0.5f, 1);
         GetComponent<MeshRenderer>().material.color = solveColor;
         audioSource = GetComponent<AudioSource>();
+
     }
     private void FixedUpdate()
     {
@@ -82,7 +108,7 @@ public class BallController : MonoBehaviour
                     //go left/right
                     SetDestination(currentSwipe.x > 0 ? Vector3.right : Vector3.left);
                 }
-                audioSource.Play();
+                
             }
             swipePosLastFrame = swipePosCurrentFrame;
 
@@ -92,7 +118,6 @@ public class BallController : MonoBehaviour
         {
             swipePosLastFrame = Vector2.zero;
             currentSwipe = Vector2.zero;
-            audioSource.Stop();
         }
     }
 

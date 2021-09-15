@@ -16,7 +16,9 @@ public class GameManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         SetUpNewLevel();
+        BallController.singleton.PlayMusic();
     }
+
 
     private void SetUpNewLevel()
     {
@@ -71,6 +73,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator PlayCheersOnCompleted()
     {
+        BallController.singleton.StopMusic();
         audioSource.Play();
         yield return new WaitForSeconds(2);
 

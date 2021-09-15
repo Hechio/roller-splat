@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/GroundPiece.cs" Line="7" Column="35" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="58" Column="10" />
-      <File FileName="Assets/Scripts/BallController.cs" Line="39" Column="28" />
+      <File FileName="Assets/Scripts/GroundPiece.cs" Line="10" Column="6" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="33" Column="24" />
+      <File FileName="Assets/Scripts/BallController.cs" />
       <File FileName="Assets/Shader/Gradient.shader" />
     </Files>
     <Pads>
@@ -13,7 +13,7 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Assets" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="BallController.cs" selected="True" />
+                  <Node name="GameManager.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
